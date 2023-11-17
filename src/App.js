@@ -1,9 +1,10 @@
 import React from 'react';
 
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import { CTA, Navbar } from './components';
 
 import './App.css';
+import CardFeatures from './components/cards/CardFeatures';
 
 const App = () => (
   <div className="App">
@@ -11,7 +12,12 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
-    <Brand />
+    <>
+      <CardFeatures />
+      <CardFeatures />
+      <CardFeatures />
+      <CardFeatures />
+    </>
     <WhatGPT3 />
     <Features />
     <Possibility />

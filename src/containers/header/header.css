@@ -1,13 +1,13 @@
 .gpt3__header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .gpt3__header-content {
     flex: 1;
     display: flex;
+    text-align: center;
     justify-content: center;
-    align-items: flex-start;
     flex-direction: column;
 
     margin-right: 5rem;
@@ -16,19 +16,61 @@
 .gpt3__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 62px;
-    line-height: 75px;
+    font-size: 40px;
+    line-height: 40px;
     letter-spacing: -0.04em;
 }
 
 .gpt3__header-content p {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 17px;
+    line-height: 30px;
     color: var(--color-text);
 
     margin-top: 1.5rem;
+}
+.gpt3__know-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpt3__know-more p {
+
+    /*border: 2px solid #0C266C;*/
+    /*border-radius: 5px ;*/
+    /*color: #0C266C;*/
+    /*font-family: var(--font-family);*/
+    /*font-weight: 500;*/
+    /*font-size: 18px;*/
+    /*line-height: 50px;*/
+    /*!*text-transform: capitalize;*!*/
+    /*margin: 0 1rem;*/
+    /*cursor: pointer;*/
+    /*padding: 0.5rem 1rem;    !*arreglar borde padding: 2px 2px; !* Añadir relleno para que parezca un botón *!*!*/
+    color: #0C266C;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gpt3__know-more button{
+    padding: 0.5rem 1rem;
+    color: white;
+    background: #0268B5;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .gpt3__header-content__input {
@@ -106,13 +148,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 .gpt3__header-image img {
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
 }
-
+/*this part of the code is in case the device screen is smaller*/
+/*para revisar si hay unos tomanos predeterminados por dispositivo*/
 @media screen and (max-width: 1050px) {
     .gpt3__header {
         flex-direction: column;
@@ -125,15 +169,15 @@
 
 @media screen and (max-width: 650px) {
     .gpt3__header-content h1 {
-        font-size: 48px;
-        line-height: 60px;
+        font-size: 24px;
+        line-height: 25px;
     }
 
     .gpt3__header-content p {
         font-size: 16px;
-        line-height: 24px;
+        line-height: 5px;
     }
-    
+
     .gpt3__header-content__people {
         flex-direction: column;
     }

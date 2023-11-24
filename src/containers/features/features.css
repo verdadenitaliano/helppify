@@ -1,6 +1,8 @@
 .gpt3__features {
     width: 100%;
     display: flex;
+    text-align: center;
+    padding: 20px;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -43,11 +45,11 @@
 
 @media screen and (max-width: 990px) {
     .gpt3__features {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .gpt3__features-heading {
-        margin: 0 0 2rem 0;
+        margin-bottom: 20px;
     }
 }
 

@@ -25,6 +25,8 @@
 
 .gpt3__whatgpt3-feature {
     display: flex;
+    align-content: flex-start;
+    align-items: center;
 }
 
 /* Customizing feature component as per needs */
@@ -34,7 +36,7 @@
 
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
-    max-width: 700px;
+    max-width: 500px;
 }
 
 .gpt3__whatgpt3-heading {
@@ -42,10 +44,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+
     margin: 4rem 0 2rem;
 }
-
+/*This sections is for las posibilidades van mas alla*/
 .gpt3__whatgpt3-heading h1 {
     font-size: 34px;
     line-height: 45px;
@@ -69,6 +71,13 @@
     flex-direction: row;
 
     margin-top: 2rem;
+}
+.gpt3__whatgpt3-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Customizing feature component as per needs */

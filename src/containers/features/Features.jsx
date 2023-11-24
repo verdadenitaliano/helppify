@@ -22,8 +22,8 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
-    <div className="gpt3__features-heading">
+  <div className="card">
+    <div className="card-title">
       <h1 className="gradient__text">El futuro es ahora y sólo tienes que darte cuenta. Empieza hoy y hazlo realidad.</h1>
       <p>Abre tu cuenta Helpify para empezar</p>
     </div>

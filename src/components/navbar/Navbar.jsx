@@ -14,15 +14,16 @@ const Navbar = () => {
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">¿Qué es Helpify?</a></p>
-          <p><a href="#features">Beneficios</a></p>
-          <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#cardFeatures">Beneficios</a></p>
+          <p><a href="#wgpt3">¿Qué es Helppify?</a></p>
+          <p><a href="#possibility">¿Comó funciona?</a></p>
+          <p><a href="#possibility">Lo que dicen de nosotros</a></p>
+          <p><a href="#blog">FAQ</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <p>Iniciar sesion</p>
+        <button type="button">Crear mi helppify</button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu

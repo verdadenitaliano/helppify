@@ -1,13 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../logo.svg';
+import logo from '../../assets/logoShort.png';
+
 import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="gpt3__navbar">
+    <div className={`gpt3__navbar${isSticky ? ' sticky' : ''}`}>
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
           <img src={logo} />
@@ -15,10 +33,10 @@ const Navbar = () => {
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#cardFeatures">Beneficios</a></p>
-          <p><a href="#wgpt3">¿Qué es Helppify?</a></p>
-          <p><a href="#possibility">¿Comó funciona?</a></p>
-          <p><a href="#possibility">Lo que dicen de nosotros</a></p>
-          <p><a href="#blog">FAQ</a></p>
+          <p><a href="#wgpt3">Sobre Helppify</a></p>
+          <p><a href="#possibility">¿Cómo funciona?</a></p>
+          {/* <p><a href="#possibility">Preguntas frecuentes</a></p> */}
+          {/* <p><a href="#blog">FAQ</a></p> */}
         </div>
       </div>
       <div className="gpt3__navbar-sign">

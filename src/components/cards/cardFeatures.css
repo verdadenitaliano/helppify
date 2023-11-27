@@ -19,7 +19,7 @@
     margin: 10px;
     position: relative;
     text-align: center;
-    width: 300px;
+    width: 250px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -30,12 +30,12 @@
     height: auto; /* Ajustar la altura automáticamente */
 }
 .card-title{
-    font-family: Manrope;
+    font-family: var(--font-family);
     margin: 0px 12px;
     color: #0C266C;
     margin-bottom: 20px; /* Espacio entre el título y las tarjetas */
 }
 .card-text{
-    font-family: Manrope;
+    font-family: var(--font-family);
     color: #0C266C;
 }

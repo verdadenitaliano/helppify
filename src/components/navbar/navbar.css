@@ -1,9 +1,18 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Your other styles for the sticky navbar */
+}
 .gpt3__navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 2rem 6rem;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out; /* Add transition for smoothness */
 }
 
 .gpt3__navbar-links {
@@ -18,8 +27,8 @@
 }
 
 .gpt3__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 230px;
+    height: 75px;
 }
 
 .gpt3__navbar-links_container {

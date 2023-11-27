@@ -2,13 +2,13 @@ import React from 'react';
 import './cardFeatures.css';
 import '../../containers/features/features.css';
 import affordable from '../../assets/affordable.png';
-import simple from '../../assets/simple.png';
+import simple from '../../assets/approvedCheck.png';
 import secure from '../../assets/secure.png';
-import forYou from '../../assets/what_you_want.png';
+import forYou from '../../assets/bike.png';
 
 const featuresData = [
   {
-    title: 'ASEQUIBLE',
+    title: 'POSIBLE',
     text: 'Con tasas de interés justas y precios transparentes, nuestra plataforma te ofrece el control total.',
     image: affordable,
   },
@@ -33,8 +33,8 @@ function CardFeatures() {
   return (
     <div className="card-features" id="cardFeatures">
       <div className="card-title">
-        <h1 className="gradient__text">El futuro es ahora, empieza hoy.</h1>
-        <p>Abrir tu cuenta Helppify es:</p>
+        <h1 className="gradient__text">Tu Tarjeta Crédito helppify!</h1>
+        <p>Beneficios más allá de tu imaginación:</p>
       </div>
       <div className="card-container">
         {featuresData.map((item, index) => (

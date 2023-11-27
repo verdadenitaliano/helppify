@@ -151,10 +151,10 @@
     flex-direction: row;
 }
 
-.gpt3__header-image img {
-    width: 60%;
-    height: 60%;
-}
+/*.gpt3__header-image img {*/
+/*    width: 60%;*/
+/*    height: 60%;*/
+/*}*/
 /*this part of the code is in case the device screen is smaller*/
 /*para revisar si hay unos tomanos predeterminados por dispositivo*/
 @media screen and (max-width: 1050px) {

@@ -33,8 +33,8 @@ function CardFeatures() {
   return (
     <div className="card-features" id="cardFeatures">
       <div className="card-title">
-        <h1 className="gradient__text">Tu Tarjeta Crédito helppify!</h1>
-        <p>Beneficios más allá de tu imaginación:</p>
+        <h1>Tu Tarjeta Crédito helppify!</h1>
+        <p>Pensada para mejorar tu salud financiera</p>
       </div>
       <div className="card-container">
         {featuresData.map((item, index) => (

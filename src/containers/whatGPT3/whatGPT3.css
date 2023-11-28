@@ -4,6 +4,8 @@
 
     padding: 2rem;
     background: white;
+    margin: 0rem 6rem;
+
 
      /*ff 3.6+ */
     /*background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);*/
@@ -94,6 +96,37 @@
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-container .gpt3__features-container_feature-text {
     margin-top: 0.5rem;
+}
+
+/*cards*/
+.perk-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 700px;
+    margin: 0rem;
+}
+
+.perks{
+    width: calc(50% - 10px); /* Resta el espacio entre las tarjetas del gap */
+    background-color: #f0f0f0; /* Fondo gris claro */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 15px;
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+    display: flex;
+    align-items: center;
+}
+.perk-icon{
+    margin-right: 15px;
+    width: 40px; /* Ajusta el tamaño del ícono */
+    height: 40px; /* Ajusta el tamaño del ícono */
+}
+.perk-text{
+    flex:1 ; /* Toma todo el espacio disponible*/
+    font-family: var(--font-family);
+    font-size: 18px; /* Tamaño del texto */
 }
 
 @media screen and (max-width: 850px) {

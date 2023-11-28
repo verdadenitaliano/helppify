@@ -15,9 +15,9 @@ const App = () => (
     <>
       <CardFeatures />
       <WhatGPT3 />
+      <CTA />
     </>
     <Possibility />
-    <CTA />
     <Blog />
     <Footer />
   </div>

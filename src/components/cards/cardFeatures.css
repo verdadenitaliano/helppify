@@ -4,6 +4,9 @@
     align-items: center;
     text-align: center;
     padding: 20px;
+    background-color: #0268B5;
+    border-radius: 2rem 2rem 0rem 0rem;
+    margin: 0rem 6rem;
 }
 .card-container{
     display: flex;
@@ -23,11 +26,19 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .card-image{
-    width: 100%; /* Ajustar la imagen al ancho de la tarjeta */
+    align-self: center;
+    width: 60%; /* Ajustar la imagen al ancho de la tarjeta */
     height: auto; /* Ajustar la altura automáticamente */
+}
+.card-title h1,p{
+    font-family: var(--font-family);
+    margin: 0px 12px;
+    color: #f0f0f0;
+    margin-bottom: 20px; /* Espacio entre el título y las tarjetas */
 }
 .card-title{
     font-family: var(--font-family);

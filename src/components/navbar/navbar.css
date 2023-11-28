@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
     background-color: #ffffff;
     transition: all 0.3s ease-in-out; /* Add transition for smoothness */
 }
@@ -27,8 +27,9 @@
 }
 
 .gpt3__navbar-links_logo img {
-    width: 230px;
-    height: 75px;
+
+    width: 220px;
+    height: 65px;
 }
 
 .gpt3__navbar-links_container {

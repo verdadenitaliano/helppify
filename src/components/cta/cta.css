@@ -3,57 +3,61 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-
     padding: 2rem;
-    margin: 4rem;
-    border-radius: 1rem;
-    background: var(--gradient-bar)
+    margin: 0rem 8rem 8rem ;
+    border-radius: 0rem 0rem 2rem 2rem;
+    background: #0268B5;
+    height: 300px;
 }
 
 .gpt3__cta-content {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-
     text-align: left;
     color: #fff;
+    margin-left: 40px;
 }
 
 .gpt3__cta-content p {
     font-family: var(--font-family);
-    font-size: 12px;
-    line-height: 30px;
-    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 300;
 }
 
-.gpt3__cta-content h3 {
+.gpt3__cta-content h1 {
     font-family: var(--font-family);
-    font-size: 24px;
-    line-height: 45px;
-    font-weight: 800;
+    font-size: 34px;
+    line-height: 50px;
+    font-weight: 700;
 }
 
 .gpt3__cta-btn {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
 
-    margin-left: 2rem;
 }
 
 .gpt3__cta-btn button {
-    background: #000;
+    background: #0C266C;
     color: #fff;
     font-family: var(--font-family);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
 
     border: none;
     outline: none;
     cursor: pointer;
     min-width: 150px;
+}
+.img-card{
+    align-items: end;
+    margin-bottom: 200px;
 }
 
 @media screen and (max-width: 650px) {
@@ -72,7 +76,7 @@
         margin: 4rem 2rem;
     }
 
-    .gpt3__cta-content h3 {
+    .gpt3__cta-content h1 {
         font-size: 18px;
         line-height: 32px;
     }

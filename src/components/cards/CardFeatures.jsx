@@ -19,11 +19,11 @@ const featuresData = [
   },
   {
     title: 'SEGURO',
-    text: 'Con un robusto sistema de procesamiento de datos encriptados y pagos en línea seguros, te ofrecemos la tranquilidad que mereces.',
+    text: 'Con un robusto sistema de procesamiento de datos encriptados y pagos en línea seguros.',
     image: secure,
   },
   {
-    title: 'PARA LO QUE QUIERAS',
+    title: 'PARA TODO',
     text: 'Disfruta de la conveniencia y la facilidad de hacer tus pagos donde quieras, cuando quieras.',
     image: forYou,
   },

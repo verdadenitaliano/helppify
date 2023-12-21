@@ -15,7 +15,7 @@ const Header = () => (
 
       <div className="gpt3__know-more">
         <p>Saber más</p>
-        <button type="button">Crear mi helppify</button>
+        <button type="button">Quiero una helppify</button>
       </div>
     </div>
 

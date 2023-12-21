@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logoShort.png';
+import logo from '../../assets/logoNew.png';
 
 import './navbar.css';
+import LoginForm from "../../pages/Login/LoginForm";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -40,8 +42,12 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Iniciar sesion</p>
-        <button type="button">Crear mi helppify</button>
+        <Link to="/login">
+          <p>Iniciar Sesión</p>
+        </Link>
+        <Link to="/signup">
+          <button type="button">Quiero una helppify</button>
+        </Link>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
@@ -51,14 +57,13 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">What is GPT3?</a></p>
-            <p><a href="#possibility">Open AI</a></p>
-            <p><a href="#features">Case Studies</a></p>
-            <p><a href="#blog">Library</a></p>
+            <p><a href="#cardFeatures">Beneficios</a></p>
+            <p><a href="#wgpt3">Sobre Helppify</a></p>
+            <p><a href="#possibility">¿Cómo funciona?</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
+            <p>Iniciar sesión</p>
+            <button type="button">Quiero una helppify</button>
           </div>
         </div>
         )}

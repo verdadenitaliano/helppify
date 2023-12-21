@@ -37,8 +37,10 @@
 .card-title h1,p{
     font-family: var(--font-family);
     margin: 0px 12px;
-    color: #f0f0f0;
+    color: #ffffff;
     margin-bottom: 20px; /* Espacio entre el título y las tarjetas */
+}.card-title p{
+    font-size: 20px;
 }
 .card-title{
     font-family: var(--font-family);

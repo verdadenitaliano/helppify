@@ -16,15 +16,15 @@
 .gpt3__header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 40px;
+    font-size: 44px;
     line-height: 40px;
     letter-spacing: -0.04em;
 }
 
 .gpt3__header-content p {
     font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 17px;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 30px;
     color: var(--color-text);
 
@@ -60,7 +60,7 @@
 }
 
 .gpt3__know-more button{
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     color: white;
     background: #0268B5;
     font-family: var(--font-family);
@@ -70,7 +70,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 2rem;
 }
 
 .gpt3__header-content__input {
